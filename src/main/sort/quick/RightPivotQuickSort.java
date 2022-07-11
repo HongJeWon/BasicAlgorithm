@@ -9,6 +9,7 @@ public class RightPivotQuickSort {
             System.out.println(i);
         }
     }
+
     public static void sort(int[] a) {
         r_pivot_sort(a, 0, a.length - 1);
     }
